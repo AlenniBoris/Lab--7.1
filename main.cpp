@@ -1,4 +1,4 @@
-#include "Student.h"
+#include "Classes and methods/Student/Student.h"
 
 int main() {
     Solution();

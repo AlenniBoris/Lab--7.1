@@ -1,6 +1,6 @@
 #include "Student.h"
-#include "StudentFirstTerm.h"
-#include "StudentSecondTerm.h"
+#include "../Student after first term/StudentFirstTerm.h"
+#include "../Student after second term/StudentSecondTerm.h"
 
 Student::Student(char *StudentName, int NumGroup, int Course, int NumGradebook) {
     srand(time(NULL));

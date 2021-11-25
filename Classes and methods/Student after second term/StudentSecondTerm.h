@@ -1,7 +1,7 @@
 #ifndef LAB__7_STUDENTSECONDTERM_H
 #define LAB__7_STUDENTSECONDTERM_H
 
-#include "StudentFirstTerm.h"
+#include "../Student after first term/StudentFirstTerm.h"
 
 class StudentSecondTerm : public Student {
 private:

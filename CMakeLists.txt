@@ -4,12 +4,12 @@ project(Lab__7_1)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(Lab__7_1 main.cpp
-        StudentFirstTerm.cpp
-        StudentFirstTerm.h
-        Student.cpp
-        Student.h
-        StudentSecondTerm.cpp
-        StudentSecondTerm.h)
+        "Classes and methods/Student after first term/StudentFirstTerm.cpp"
+        "Classes and methods/Student after first term/StudentFirstTerm.h"
+        "Classes and methods/Student/Student.cpp"
+        "Classes and methods/Student/Student.h"
+        "Classes and methods/Student after second term/StudentSecondTerm.cpp"
+        "Classes and methods/Student after second term/StudentSecondTerm.h")
 
 
 # 'Google_test' is the subproject name
@@ -22,8 +22,12 @@ include_directories(${gtest_SOURCE_DIR}/include ${gtest_SOURCE_DIR})
 # 'Google_Tests_run' is the target name
 # 'test1.cpp tests2.cpp' are source files with tests
 add_executable(Google_Tests_run
-        Student.cpp
-        Student.h
-        TestsForStudentClassAndMethods.cpp)
+        "Classes and methods/Student/Student.cpp"
+        "Classes and methods/Student/Student.h"
+        "Classes and methods/Student after first term/StudentFirstTerm.h"
+        "Classes and methods/Student after first term/StudentFirstTerm.cpp"
+        "Classes and methods/Student after second term/StudentSecondTerm.h"
+        "Classes and methods/Student after second term/StudentSecondTerm.cpp"
+        "Tests/TestsForStudent.cpp")
 target_link_libraries(Google_Tests_run gtest gtest_main)
 
