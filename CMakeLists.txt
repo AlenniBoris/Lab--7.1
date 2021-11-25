@@ -28,6 +28,6 @@ add_executable(Google_Tests_run
         "Classes and methods/Student after first term/StudentFirstTerm.cpp"
         "Classes and methods/Student after second term/StudentSecondTerm.h"
         "Classes and methods/Student after second term/StudentSecondTerm.cpp"
-        "Tests/TestsForStudent.cpp")
+        "Tests/TestsForStudent.cpp" Tests/AfterFirstTerm.cpp Tests/AfterSecondTerm.cpp)
 target_link_libraries(Google_Tests_run gtest gtest_main)
 
