@@ -157,7 +157,6 @@ void Solution() {
     StudentSecondTerm Egor2("Anton", 2, 1, 2004, 4, 12, 9, 7, 1);
     StudentsSecond.push_back(&Egor2);
 
-
     GetGroupAverageFirstTerm(StudentsFirst);
     GetGroupAverageSecondTerm(StudentsSecond);
 }
