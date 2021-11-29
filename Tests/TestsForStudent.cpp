@@ -1,10 +1,6 @@
 #include "gtest/gtest.h"
 #include "../Classes and methods/Student/Student.h"
 
-TEST(TestForGet, GetNameCase1) {
-    Student TestName("Boris", 4, 1, 2004);
-    ASSERT_EQ(TestName.GetName(),"Boris");
-}
 
 TEST(TestForGet, GetGroupCase1) {
     Student TestName("Boris", 4, 1, 2004);
